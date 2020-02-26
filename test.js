@@ -45,7 +45,7 @@ for(age = 0; age < 10; age++){
 
 document.write("You are now over 10");
 */
-
+/*
 var links = document.getElementsByTagName("a");
 
 for(i= 1; i <= links.length; i++){
@@ -53,3 +53,18 @@ for(i= 1; i <= links.length; i++){
 }
 
 document.write("All links now looped");
+*/
+
+for ( i = 0; i < 10; i++){
+    
+    if( i===5 || i===3){
+        continue;
+    }
+    
+        console.log(i);
+
+    if( i===7){
+        break;
+    }
+}
+console.log("Loop broken");
