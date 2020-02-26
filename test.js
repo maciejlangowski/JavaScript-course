@@ -106,3 +106,14 @@ console.log(Math.ceil(7.5));
 console.log(Math.max(7,5,555,5));
 console.log(Math.PI);
 */
+
+var a = 5;
+var b = 5;
+
+if (!isNaN(a)){
+    console.log("meaning of life is " + (a*b));
+    
+}
+else{
+    console.log("thats not a number");
+}
