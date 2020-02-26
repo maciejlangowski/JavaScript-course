@@ -28,7 +28,7 @@ else{
     document.write("you are not older than 10");
     }
 */
-
+/*
 var age = 5;
 
 while(age < 10){
@@ -37,3 +37,19 @@ while(age < 10){
 }
 
 document.write("You are now over 10");
+*/
+/*
+for(age = 0; age < 10; age++){
+    console.log("Your age is <10");
+}
+
+document.write("You are now over 10");
+*/
+
+var links = document.getElementsByTagName("a");
+
+for(i= 1; i <= links.length; i++){
+    console.log("This is link number" + i);
+}
+
+document.write("All links now looped");
