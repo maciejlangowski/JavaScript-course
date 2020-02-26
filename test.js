@@ -85,4 +85,11 @@ function getAverage (a,b){
 }
 
 var myResult = getAverage(8,22);
-console.log("The average is " + myResult);
+
+
+
+function logResult(){
+    console.log("The average is " + myResult + "(inside)"); 
+}
+
+logResult();
