@@ -54,7 +54,7 @@ for(i= 1; i <= links.length; i++){
 
 document.write("All links now looped");
 */
-
+/*
 for ( i = 0; i < 10; i++){
     
     if( i===5 || i===3){
@@ -68,3 +68,11 @@ for ( i = 0; i < 10; i++){
     }
 }
 console.log("Loop broken");
+
+*/
+
+var links = document.getElementsByTagName("a");
+
+for (i = 0; i < links.length; i++){
+    links[i].className = "link-" + i;
+}
