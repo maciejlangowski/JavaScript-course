@@ -70,9 +70,19 @@ for ( i = 0; i < 10; i++){
 console.log("Loop broken");
 
 */
-
+/*
 var links = document.getElementsByTagName("a");
 
 for (i = 0; i < links.length; i++){
     links[i].className = "link-" + i;
 }
+*/
+
+function getAverage (a,b){
+    var average = (a + b) / 2;
+    console.log(average);
+    return average;
+}
+
+var myResult = getAverage(8,22);
+console.log("The average is " + myResult);
