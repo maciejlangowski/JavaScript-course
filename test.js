@@ -106,7 +106,7 @@ console.log(Math.ceil(7.5));
 console.log(Math.max(7,5,555,5));
 console.log(Math.PI);
 */
-
+/*
 var a = 5;
 var b = 5;
 
@@ -117,3 +117,30 @@ if (!isNaN(a)){
 else{
     console.log("thats not a number");
 }
+*/
+/*
+var myString = "I\'m string"; */
+/*
+console.log(myString);
+console.log(myString.length);
+
+console.log(myString.toLowerCase());
+console.log(myString.indexOf("string"));
+*/
+/*
+if (myString.indexOf("string")===-1){
+
+    console.log("the word string is not in the string");
+}
+else{
+    console.log("the word string starts at position " + 
+    myString.indexOf("string"));
+}
+*/
+
+var string1 = "abc";
+var string2 = "bcd";
+
+console.log(string1.toLowerCase === string2.toLowerCase);
+
+console.log(string1 > string2);
