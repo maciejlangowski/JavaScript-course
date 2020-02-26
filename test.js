@@ -77,7 +77,7 @@ for (i = 0; i < links.length; i++){
     links[i].className = "link-" + i;
 }
 */
-
+/*
 function getAverage (a,b){
     var average = (a + b) / 2;
     console.log(average);
@@ -86,10 +86,23 @@ function getAverage (a,b){
 
 var myResult = getAverage(8,22);
 
-
-
 function logResult(){
     console.log("The average is " + myResult + "(inside)"); 
 }
 
 logResult();
+
+*/
+/*
+var a = 5;
+var b = 5;
+
+console.log(a + b);
+console.log(typeof (a+b) );
+
+console.log(Math.round(7.3));
+console.log(Math.floor(7.5));
+console.log(Math.ceil(7.5));
+console.log(Math.max(7,5,555,5));
+console.log(Math.PI);
+*/
