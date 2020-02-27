@@ -166,7 +166,7 @@ var myArray = new Array();
 var myString = new String();
 var myCar = new Car();
 */
-
+/*
 var Car = function(maxSpeed, driver){
     this.maxSpeed = maxSpeed;
     this.driver = driver;
@@ -184,3 +184,30 @@ var myCar4 = new Car(70,"Mddfdfk");
 
 myCar.drive(30,5);
 myCar3.logDriver();
+*/
+
+var myDate = new Date();
+console.log(myDate);
+
+var myPastDate = new Date(1545, 11, 2, 22, 59, 0);
+var myFutureDate = new Date(2545, 0, 23, 59, 58);
+
+console.log(myPastDate);
+console.log(myFutureDate);
+
+var birthday = new Date(1985, 0, 15, 11, 15, 25);
+console.log(birthday.getMonth()); /* podaje miesiac (0 - jan, 11 - dec)*/
+console.log(birthday.getFullYear()); /* podaje rok */ 
+console.log(birthday.getDate()); /* podaje dzien miesiaca */
+console.log(birthday.getDay()); /* podaje dzien tygodnia (0-sun, 1-mon...)*/
+console.log(birthday.getHours()); /*podaje godzine (0-23)*/
+console.log(birthday.getTime()); /*ms od 1.01.1970 do podanej daty*/
+
+var birthday2 = new Date(1985, 0, 15, 11, 15, 25);
+
+if (birthday.getTime == birthday2.getTime){
+    console.log("birthdays are equal")
+}
+else {
+    console.log("birthdays are not equal")
+}
