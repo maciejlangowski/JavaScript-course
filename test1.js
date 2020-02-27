@@ -1,5 +1,6 @@
 /*tworzymy dwie zmienne - dla id content i dla guzika*/
 
+/*
 var content = document.getElementById("content");
 var button = document.getElementById("show-more");
 
@@ -13,7 +14,7 @@ zdefiniowana klasa open w style.css) */
 
 /* chcemy tez zeby guzik pokazywal show less jesli
 okienko bedzie rozszerzone i na odwrot */
-
+/*
 button.onclick = function(){
     if(content.className == "open"){
         content.className = "";
@@ -25,4 +26,23 @@ button.onclick = function(){
     }
 }
 
+*/
+function setUpEvents(){
 
+    var content = document.getElementById("content");
+    var button = document.getElementById("show-more");
+    button.onclick = function(){
+        if(content.className == "open"){
+            content.className = "";
+            button.innerHTML="show more";
+        }
+        else{
+            content.className = "open";
+            button.innerHTML="show less";
+        }
+    }
+}
+
+window.onload = function(){
+    setUpEvents();
+}
